@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        style="@style/textMessageTitle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:layout_width="215dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnSearch"
+            style="@style/mainButton"
+            android:text="@string/buttonMainSearch"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/search" />  <!-- Иконка слева от текста -->
+        <Button
+            android:layout_width="215dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnMedia"
+            style="@style/mainButton"
+            android:text="@string/buttonMainMedia"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/instagram" />  <!-- Иконка Instagram слева от текста -->
+        <Button
+            android:layout_width="215dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnSettings"
+            style="@style/mainButton"
+            android:text="@string/buttonMainSettings"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/settings" />  <!-- Иконка настроек слева от текста -->
+        <Button
+            android:id="@+id/btnShareApp"
+            android:layout_width="215dp"
+            android:layout_height="160dp"
+            style="@style/mainButton"
+            android:text="@string/buttonShareApp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/paper_plane" />  <!-- Иконка бумажного самолетика слева от текста -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#ED760E</color>  <!-- Болотный зелёный цвет -->
+    <color name="colBase">#FFCA86</color>  <!-- Мятный цвет -->
+    <color name="colNight">#1A1B22</color>
+    <color name="nThemeButton">#23242b</color>
+    <color name="nThemeText">#007D6E</color>  <!-- Темный мятный цвет -->
+</resources>
